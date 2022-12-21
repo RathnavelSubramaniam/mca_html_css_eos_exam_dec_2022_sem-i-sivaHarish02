@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+header{
+    background-image:-webkit-linear-gradient(45deg ,rgb(231, 231, 18),rgb(253, 253, 249),rgb(207, 207, 65));
+}
+.navbar.max-width{
+
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    padding: 15px;
+}
+.navbar img{
+    float: left;
+    margin-top: -30px;
+}
+.menu{
+    background-color: rgb(12, 99, 199);
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.menu .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    display: block;
+    color: rgb(238, 241, 37);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+aside ul{
+    list-style: none;
+}
+aside img{
+    display: block;
+    width: 50%;height:20% ;
+    color: rebeccapurple;
+}
+.content{
+    
+    column-count: 2;
+}
+aside{
+background-color: rgb(238, 205, 156);
+height: 50vh;
+width: 10%;
+padding: 20px;
+float:left;
+font: 1em sans-serif;
+}
+aside :hover{
+    color: rgb(54, 211, 15);
+}
+footer{
+    background-image: -webkit-linear-gradient(45deg ,rgb(231, 231, 18),rgb(253, 253, 249),rgb(207, 207, 65));
+    text-align: center;
+}
